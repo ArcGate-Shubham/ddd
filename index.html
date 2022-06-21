@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        .data 
+        {
+            border: 0px solid black; 
+            height: 150px;
+            width: 100%;
+            background-color: lightslategray;
+        }
+
+        .data1 
+        {
+            border: 1px solid black;
+            height: 70px;
+            width: 100%;
+            background-color: darkslategrey;
+        }
+        ul 
+        {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            font-size: 25px;
+        }
+        a 
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .data2
+        {
+            border: 2px solid black; 
+            height: 500px;
+            width: 100%;
+        }
+        .data21
+        {
+            border: 2px solid black; 
+            height: 500px;
+            width: 33%;
+            float: left;
+            /* background-image: url("/home/stonex/Downloads/download.jpeg"); */
+        }
+        .data22
+        {
+            border: 2px solid black; 
+            height: 500px;
+            width: 34%;
+            float: left;
+            background-color: lightblue;
+        }
+        .data221
+        {
+            border: 2px solid white; 
+            height: 400px;
+            width: 75%;
+            align-items: center;
+            margin-left: 75px;
+            margin-top: 50px;
+            background-color:cornsilk;
+            border-radius: 10px;
+            padding-left: 50px;
+        }
+        .data23
+        {
+            border: 2px solid black; 
+            height: 500px;
+            width: 32.3%;
+            float: left;
+            /* background-image: url("/home/stonex/Downloads/images (1).jpeg"); */
+            background-repeat: no-repeat;
+        }
+        footer
+        {
+            border: 2px solid black; 
+            height: 200px;
+            width:  100%;
+            background-color:rgb(121, 160, 161);
+        }
+        img
+        {
+            border: 1px solid black;
+            height: 150px;
+            float: left;
+        }
+        .data11
+        {
+            height: 500px;
+            width: 100%;
+        }
+        .data111
+        {
+            height: 500px;
+            width: 100%;
+        }
+        .valid
+        {
+            border: 1px solid black;
+            height: 150px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="data">
+        <img src="/home/stonex/Downloads/download (1).jpeg">
+        <h1 style="margin-top: 50px; font-size: 50px; float: left; margin-left: 550px;" >ARCH,UDAIPUR</h1>
+        <img src="/home/stonex/Downloads/images (1).png" class="valid">
+    </div>
+    <div class="data1">
+        <ul>
+            <a href><li>Home</li></a>
+            <a href><li>About Us</li></a>
+            <a href><li>Contact Us</li></a>
+            <a href><li>Gallery</li></a>
+            <a href><li>Notes</li></a>
+        </ul>
+    </div>
+    <div class="data2">
+        <div class="data21">
+            <img src="/home/stonex/Downloads/download.jpeg" class="data111">
+        </div>
+        <div class="data22">
+            <div class="data221">
+            <form action="index.html" enctype="multipart/form-data" method="post">
+                NAME:<input type="text" name="name" style="margin-top: 50px; margin-left: 100px;" required><br>
+                PASSWORD:<input type="password" name="password"style="margin-top: 50px; margin-left: 62px;" required maxlength="8"><br>
+                DOB:<input type="date" name="DOB"style="margin-top: 50px; margin-left: 115px;" required><br>
+                EMAIL:<input type="email"name="email"style="margin-top: 50px; margin-left: 100px;" required><br>
+                      <input type="submit"name="submit"style="margin-top: 50px; margin-left: 170px;">
+            </form>
+            </div>
+        </div>
+        <div class="data23">
+            <img src="/home/stonex/Downloads/images (1).jpeg" class="data11">
+        </div>
+    </div>
+    <footer>
+        <h1 style="text-align: center; margin-top: 100px;">Copyrights</h1>
+        <h2 style="text-align: center;">All right reserved</h2>
+    </footer>
+</body>
+
+</html>
