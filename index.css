@@ -1,0 +1,101 @@
+
+        .data 
+        {
+            border: 0px solid black; 
+            height: 150px;
+            width: 100%;
+            background-color: lightslategray;
+        }
+
+        .data1 
+        {
+            border: 1px solid black;
+            height: 70px;
+            width: 100%;
+            background-color: darkslategrey;
+        }
+        ul 
+        {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            font-size: 25px;
+        }
+        a 
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .data2
+        {
+            border: 2px solid black; 
+            height: 500px;
+            width: 100%;
+        }
+        .data21
+        {
+            border: 2px solid black; 
+            height: 500px;
+            width: 33%;
+            float: left;
+            /* background-image: url("/home/stonex/Downloads/download.jpeg"); */
+        }
+        .data22
+        {
+            border: 2px solid black; 
+            height: 500px;
+            width: 34%;
+            float: left;
+            background-color: lightblue;
+        }
+        .data221
+        {
+            border: 2px solid white; 
+            height: 400px;
+            width: 75%;
+            align-items: center;
+            margin-left: 75px;
+            margin-top: 50px;
+            background-color:cornsilk;
+            border-radius: 10px;
+            padding-left: 50px;
+        }
+        .data23
+        {
+            border: 2px solid black; 
+            height: 500px;
+            width: 32.3%;
+            float: left;
+            /* background-image: url("/home/stonex/Downloads/images (1).jpeg"); */
+            background-repeat: no-repeat;
+        }
+        footer
+        {
+            border: 2px solid black; 
+            height: 200px;
+            width:  100%;
+            background-color:rgb(121, 160, 161);
+        }
+        img
+        {
+            border: 1px solid black;
+            height: 150px;
+            float: left;
+        }
+        .data11
+        {
+            height: 500px;
+            width: 100%;
+        }
+        .data111
+        {
+            height: 500px;
+            width: 100%;
+        }
+        .valid
+        {
+            border: 1px solid black;
+            height: 150px;
+            float: right;
+        }
+        
