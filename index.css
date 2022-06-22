@@ -96,3 +96,44 @@
             height: 150px;
             float: right;
         }
+        .arch
+        {
+            margin-top: 50px; 
+            font-size: 50px; 
+            float: left; 
+            margin-left: 550px;
+        }
+        .arch1
+        {
+            margin-top: 50px; 
+            margin-left: 100px;
+        }
+        .arch2
+        {
+            margin-top: 50px; 
+            margin-left: 62px;
+        }
+        .arch3
+        {
+            margin-top: 50px; 
+            margin-left: 115px;
+        }
+        .arch4
+        {
+            margin-top: 50px; 
+            margin-left: 100px;
+        }
+        .arch5
+        {
+            margin-top: 50px; 
+            margin-left: 170px;
+        }
+        .arch6
+        {
+            text-align: center; 
+            margin-top: 100px;
+        }
+        .arch7
+        {
+            text-align: center;
+        }
